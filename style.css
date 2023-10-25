@@ -1,0 +1,60 @@
+body{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(125, 63, 184);
+    background-image: url(  guts-berserk.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.6);
+    gap: 1rem;
+    color: aliceblue;
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+}
+
+.content input{
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid lightgrey;
+    color: aliceblue;
+    outline: none;
+    padding: .4rem;
+    width: 50%;
+    font-size: 1rem;
+}
+    
+.content input:focus{
+    border-bottom: 1px solid rgb(38, 0, 255);
+}
+
+
+.content input::placeholder{
+    color: aliceblue;
+}
+
+.content button{
+    padding: .8rem;
+    width: 80%;
+    font-size: 1rem;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 1rem;
+    color: aliceblue;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.content button:hover{
+    background-color: rgba(250, 235, 215, 0);
+}
